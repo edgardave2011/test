@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>fge_travel_attachments</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function attach() {
+	
+	var gr = new GlideRecord("sys_attachment");
+	gr.addQuery("table_sys_id", current.sys_id);
+	gr.query();
+
+	var html = '<div><span style="font-family: verdana, geneva;">Attachment: '
+		
+	while (gr.next()) {
+		template.print(html + '<a href="https://' + gs.getProperty('instance_name') + '.service-now.com/sys_attachment.do?sys_id=' + gr.sys_id + '">' + gr.file_name + '</a></span></div>');
+	}
+}());]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-21 09:47:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>02488d8f3799860050579c9953990ef0</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>fge_travel_attachments</sys_name>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>sys_script_email_02488d8f3799860050579c9953990ef0</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-07-21 10:15:27</sys_updated_on>
+    </sys_script_email>
+</record_update>

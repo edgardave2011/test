@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_traveller" label="Passenger" language="en" table="x_spog_travel_traveller">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_traveller</element>
+            <help/>
+            <hint/>
+            <label>Passenger</label>
+            <language>en</language>
+            <name>x_spog_travel_traveller</name>
+            <plural>Passengers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-15 19:34:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1c951819371d460050579c9953990e7b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Passenger</sys_name>
+            <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+            <sys_update_name>sys_documentation_x_spog_travel_traveller_u_traveller_en</sys_update_name>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-17 20:23:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

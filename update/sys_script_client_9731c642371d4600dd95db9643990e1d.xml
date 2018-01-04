@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This client script executes the AJAX utils to get the total amount of the travel request.</description>
+        <field>u_rail_fare</field>
+        <global>true</global>
+        <messages/>
+        <name>FGE - Travel Rail Faire OnChange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+    if (isLoading || newValue == "") {
+        return false;
+    }
+
+    var ga = new GlideAjax("TravelManagementUtilsAJAX");
+    ga.addParam("sysparm_name", "getTravelTotalAmount");
+    ga.addParam("sysparm_flight", g_form.getValue("u_flight"));
+    ga.addParam("sysparm_hotel", g_form.getValue("u_hotel"));
+    ga.addParam("sysparm_other", g_form.getValue("u_other"));
+    ga.addParam("sysparm_car_hire", g_form.getValue("u_car_hire"));
+    ga.addParam("sysparm_rail_faire", g_form.getValue("u_rail_fare"));;
+    ga.getXML(ajaxResponse);
+
+    function ajaxResponse(serverResponse) {
+		
+        var result = serverResponse.responseXML.getElementsByTagName("result");
+
+        g_form.setValue("u_total_cost", result[0].getAttribute("symbol") + result[0].getAttribute("amount"));
+        g_form.setValue("u_total_cost.display", result[0].getAttribute("amount"));
+        g_form.setValue("u_total_cost.currency", result[0].getAttribute("currency"));
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-18 11:20:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9731c642371d4600dd95db9643990e1d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FGE - Travel Rail Faire OnChange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>sys_script_client_9731c642371d4600dd95db9643990e1d</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-09-10 10:05:28</sys_updated_on>
+        <table>x_spog_travel_application</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

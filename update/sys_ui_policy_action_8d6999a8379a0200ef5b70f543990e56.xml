@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_passenger_external</field>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin.alex</sys_created_by>
+        <sys_created_on>2015-09-01 09:38:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8d6999a8379a0200ef5b70f543990e56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_passenger_external</sys_name>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>sys_ui_policy_action_8d6999a8379a0200ef5b70f543990e56</sys_update_name>
+        <sys_updated_by>admin.alex</sys_updated_by>
+        <sys_updated_on>2015-09-01 09:38:14</sys_updated_on>
+        <table>x_spog_travel_traveller</table>
+        <ui_policy display_value="FGE - Internal type shows passenger ref. field">c2d8d5a8379a0200ef5b70f543990eb2</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

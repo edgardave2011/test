@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2018-01-04 13:05:16">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order>400</order>
+        <read_roles>x_spog_travel.user</read_roles>
+        <roles>user_admin</roles>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-15 08:23:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a9eb7dcd375542006c522b2943990eb4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Travel Homepage</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>sys_portal_page_a9eb7dcd375542006c522b2943990eb4</sys_update_name>
+        <sys_updated_by>admin.mohammed</sys_updated_by>
+        <sys_updated_on>2015-07-28 14:43:23</sys_updated_on>
+        <title>Travel Homepage</title>
+        <user/>
+        <view>travel</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="Travel Homepage">a9eb7dcd375542006c522b2943990eb4</page>
+                <summary/>
+                <sys_created_by>david.edgar</sys_created_by>
+                <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                <sys_id>5e73db30373dd60050579c9953990e8e</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>david.edgar</sys_updated_by>
+                <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                <u_fge>false</u_fge>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 23-02-2016 12:49:39">5e73db30373dd60050579c9953990e8e</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                        <sys_id>1273db30373dd60050579c9953990e8f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>02f1ea703739d60050579c9953990e56</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 23-02-2016 12:49:39">5e73db30373dd60050579c9953990e8e</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                        <sys_id>1673db30373dd60050579c9953990e8f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>a9eb7dcd375542006c522b2943990eb4</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 23-02-2016 12:49:39">5e73db30373dd60050579c9953990e8e</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                        <sys_id>9273db30373dd60050579c9953990e8f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 23-02-2016 12:49:39">5e73db30373dd60050579c9953990e8e</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                        <sys_id>9e73db30373dd60050579c9953990e8e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>Travel Pie Chart Current</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>1</offset>
+                <page display_value="Travel Homepage">a9eb7dcd375542006c522b2943990eb4</page>
+                <summary/>
+                <sys_created_by>david.edgar</sys_created_by>
+                <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                <sys_id>6673db30373dd60050579c9953990edb</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>david.edgar</sys_updated_by>
+                <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                <u_fge>false</u_fge>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 23-02-2016 12:49:39">6673db30373dd60050579c9953990edb</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                        <sys_id>2a73db30373dd60050579c9953990edb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>03f3a6343739d60050579c9953990e22</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 23-02-2016 12:49:39">6673db30373dd60050579c9953990edb</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                        <sys_id>2e73db30373dd60050579c9953990edb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>a9eb7dcd375542006c522b2943990eb4</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 23-02-2016 12:49:39">6673db30373dd60050579c9953990edb</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                        <sys_id>a673db30373dd60050579c9953990edb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>This week my QCs</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 23-02-2016 12:49:39">6673db30373dd60050579c9953990edb</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                        <sys_id>aa73db30373dd60050579c9953990edb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>1</offset>
+                <page display_value="Travel Homepage">a9eb7dcd375542006c522b2943990eb4</page>
+                <summary/>
+                <sys_created_by>david.edgar</sys_created_by>
+                <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                <sys_id>d673db30373dd60050579c9953990e8f</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>david.edgar</sys_updated_by>
+                <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                <u_fge>false</u_fge>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 23-02-2016 12:49:39">d673db30373dd60050579c9953990e8f</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                        <sys_id>1673db30373dd60050579c9953990eda</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>5242ee703739d60050579c9953990e84</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 23-02-2016 12:49:39">d673db30373dd60050579c9953990e8f</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                        <sys_id>1a73db30373dd60050579c9953990e8f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>This Week Closed By Me</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 23-02-2016 12:49:39">d673db30373dd60050579c9953990e8f</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                        <sys_id>2a73db30373dd60050579c9953990eda</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>a9eb7dcd375542006c522b2943990eb4</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 23-02-2016 12:49:39">d673db30373dd60050579c9953990e8f</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                        <sys_id>a673db30373dd60050579c9953990eda</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="Travel Homepage">a9eb7dcd375542006c522b2943990eb4</page>
+                <summary/>
+                <sys_created_by>david.edgar</sys_created_by>
+                <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                <sys_id>ea73db30373dd60050579c9953990eda</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>david.edgar</sys_updated_by>
+                <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                <u_fge>false</u_fge>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 23-02-2016 12:49:39">ea73db30373dd60050579c9953990eda</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                        <sys_id>2273db30373dd60050579c9953990edb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 23-02-2016 12:49:39">ea73db30373dd60050579c9953990eda</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                        <sys_id>2e73db30373dd60050579c9953990eda</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>This Week Received  - Team</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 23-02-2016 12:49:39">ea73db30373dd60050579c9953990eda</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                        <sys_id>a273db30373dd60050579c9953990edb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>a9eb7dcd375542006c522b2943990eb4</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 23-02-2016 12:49:39">ea73db30373dd60050579c9953990eda</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-02-23 12:49:39</sys_created_on>
+                        <sys_id>ae73db30373dd60050579c9953990eda</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-02-23 12:49:39</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>d592e6b03739d60050579c9953990e11</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

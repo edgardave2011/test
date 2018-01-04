@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client=true,hasLabels=true" audit="true" extends="task" label="Travel Application" max_length="40" name="x_spog_travel_application" sizeclass="49581" text_index="true" type="collection">
+        <element choice="1" default="open" label="State" max_length="40" name="travel_state" type="string">
+            <choice>
+                <element label="Open" sequence="0" value="open"/>
+                <element label="In Progress" sequence="1" value="in_progress"/>
+                <element label="Awaiting Customer Response" sequence="2" value="awaiting_customer_response"/>
+                <element label="QC" sequence="3" value="qc"/>
+                <element label="Closed" sequence="4" value="closed"/>
+                <element label="Cancelled" sequence="5" value="cancelled"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" default="0" label="Additional Cost" max_length="15" name="u_additional_cost" type="currency"/>
+        <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=user_name;email,ref_ac_order_by=first_name" label="Caller" mandatory="true" max_length="32" name="u_caller" reference="sys_user" reference_qual="u_user_type!=store^EQ" reference_qual_condition="u_user_type!=store^EQ" type="reference"/>
+        <element attributes="omit_sys_original=true" label="Car Hire" max_length="15" name="u_car_hire" type="currency"/>
+        <element label="Cost Center" max_length="32" name="u_cost_center" read_only="true" reference="cmn_cost_center" type="reference"/>
+        <element attributes="omit_sys_original=true" default="0" label="Discount/Saving" max_length="15" name="u_discount_saving" type="currency"/>
+        <element label="First Date of Travel" max_length="40" name="u_first_date_of_travel" type="glide_date"/>
+        <element attributes="omit_sys_original=true" label="Flight" max_length="15" name="u_flight" type="currency"/>
+        <element label="Has Child" max_length="40" name="u_has_child" read_only="true" type="boolean"/>
+        <element attributes="omit_sys_original=true" label="Hotel" max_length="15" name="u_hotel" type="currency"/>
+        <element attributes="omit_sys_original=true" default="0" label="Missed Saving" max_length="15" name="u_missed_saving" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Other" max_length="15" name="u_other" type="currency"/>
+        <element label="Other Details" max_length="40" name="u_other_details" type="string"/>
+        <element default="0" label="No. of Passengers" max_length="3" name="u_quantity_travellers" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true" label="Rail Fare" max_length="15" name="u_rail_fare" type="currency"/>
+        <element label="Reason Additional Cost" max_length="40" name="u_reason_additional_cost" type="string"/>
+        <element label="Reason Discount" max_length="40" name="u_reason_discount" type="string"/>
+        <element label="Reason Missed Saving" max_length="40" name="u_reason_missed_saving" type="string"/>
+        <element label="Resolved At" max_length="40" name="u_resolved_at" read_only="true" type="glide_date_time"/>
+        <element label="Resolved By" max_length="32" name="u_resolved_by" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="omit_sys_original=true" label="Total Cost" max_length="15" name="u_total_cost" type="currency"/>
+    </element>
+</database>

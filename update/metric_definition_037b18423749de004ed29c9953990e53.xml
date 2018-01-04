@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="metric_definition">
+    <metric_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <field>assigned_to</field>
+        <name>Travel-Assigned to Duration</name>
+        <number>MTRC0010033</number>
+        <order>100</order>
+        <script/>
+        <sys_class_name>metric_definition</sys_class_name>
+        <sys_created_by>admin.mohammed</sys_created_by>
+        <sys_created_on>2016-01-20 13:51:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>037b18423749de004ed29c9953990e53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Travel-Assigned to Duration</sys_name>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>metric_definition_037b18423749de004ed29c9953990e53</sys_update_name>
+        <sys_updated_by>admin.mohammed</sys_updated_by>
+        <sys_updated_on>2016-01-20 13:51:05</sys_updated_on>
+        <table>x_spog_travel_application</table>
+        <timeline>true</timeline>
+        <type>field_value_duration</type>
+    </metric_definition>
+</record_update>

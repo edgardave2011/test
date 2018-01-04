@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Travel Application">bb69f1cd375542006c522b2943990e39</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_spog_travel_traveller">u_travel_request.travel_state=open^EQ<item endquery="false" field="u_travel_request.travel_state" goto="false" newquery="false" operator="=" or="false" value="open"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Assigned to Me</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_spog_travel_traveller</name>
+        <order>70</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_spog_travel.user</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin.alex</sys_created_by>
+        <sys_created_on>2015-08-13 10:28:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4dde6f92377d420050579c9953990e7d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Open (by Passenger)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>sys_app_module_4dde6f92377d420050579c9953990e7d</sys_update_name>
+        <sys_updated_by>admin.alex</sys_updated_by>
+        <sys_updated_on>2015-09-09 15:26:40</sys_updated_on>
+        <timeline_page/>
+        <title>Open (by Passenger)</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

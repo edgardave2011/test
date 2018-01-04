@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_spog_travel.TravelManagementUtilsAJAX</api_name>
+        <client_callable>true</client_callable>
+        <description>Ajax processor for managing travel costs.</description>
+        <name>TravelManagementUtilsAJAX</name>
+        <script><![CDATA[var TravelManagementUtilsAJAX = Class.create();
+TravelManagementUtilsAJAX.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    /*
+     * Calculate and return the total amount of the travel request based on the broken down list
+     */
+    getTravelTotalAmount: function () {
+
+        var flight = this.getParameter("sysparm_flight"),
+            hotel = this.getParameter("sysparm_hotel"),
+            other = this.getParameter("sysparm_other"),
+            car_hire = this.getParameter("sysparm_car_hire"),
+            rail_faire = this.getParameter("sysparm_rail_faire"),
+            result = this.newItem("result"),
+
+            travelUtils = new TravelManagementUtils().getTravelTotalAmount(
+                flight,
+                hotel,
+                other,
+                car_hire,
+                rail_faire);
+
+        result.setAttribute("currency", travelUtils.currency);
+        result.setAttribute("symbol", travelUtils.symbol);
+        result.setAttribute("amount", travelUtils.amount);
+    }
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-16 16:00:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f7bd24e537dd460050579c9953990e59</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>TravelManagementUtilsAJAX</sys_name>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>sys_script_include_f7bd24e537dd460050579c9953990e59</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-09-10 10:04:59</sys_updated_on>
+    </sys_script_include>
+</record_update>

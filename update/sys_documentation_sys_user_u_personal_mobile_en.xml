@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_personal_mobile" label="Personal Mobile" language="en" table="sys_user">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_personal_mobile</element>
+            <help/>
+            <hint/>
+            <label>Personal Mobile</label>
+            <language>en</language>
+            <name>sys_user</name>
+            <plural>Personal Mobiles</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-15 15:33:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f001f6c537aec20050579c9953990e82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Personal Mobile</sys_name>
+            <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+            <sys_update_name>sys_documentation_sys_user_u_personal_mobile_en</sys_update_name>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-15 15:33:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_spog_travel.TravelManagementUtils</api_name>
+        <client_callable>false</client_callable>
+        <description>Utilities for travel management applications</description>
+        <name>TravelManagementUtils</name>
+        <script><![CDATA[var TravelManagementUtils = Class.create();
+
+TravelManagementUtils.prototype = {
+
+    initialize: function () {
+        this.Currency = gs.getProperty("glide.i18n.single_currency.code");
+        this.Symbol = this.getSymbol();
+        this.QuantityPassengersAllowed = gs.getProperty("x_spog_travel.quantity.travellers.allowed", 5);
+        this.TABLE_PASSENGERS = "x_spog_travel_traveller";
+        this.TABLE_TRAVEL_REQUEST = "x_spog_travel_application";
+    },
+
+    /*
+     * Calculates and returns the total amount for a specific travel request
+     */
+    getTravelTotalAmount: function (flight, hotel, other, carHire, railFaire) {
+
+        var flight_cost = parseFloat(flight.substring(flight.indexOf(";") + 1).replace(",", ""), 10),
+            hotel_cost = parseFloat(hotel.substring(hotel.indexOf(";") + 1).replace(",", ""), 10),
+            other_cost = parseFloat(other.substring(other.indexOf(";") + 1).replace(",", ""), 10),
+            car_hire_cost = parseFloat(carHire.substring(carHire.indexOf(";") + 1).replace(",", ""), 10),
+            rail_faire_cost = parseFloat(railFaire.substring(railFaire.indexOf(";") + 1).replace(",", ""), 10),
+			
+            amount = (flight_cost + 
+					  hotel_cost + 
+					  other_cost + 
+					  car_hire_cost + 
+					  rail_faire_cost).toFixed(2);
+
+        return {
+            currency: this.Currency,
+            symbol: this.Symbol,
+            amount: amount
+        };
+    },
+
+    /*
+     * Gets the symbol based on the currency
+     */
+    getSymbol: function () {
+        var gr = new GlideRecord("fx_currency");
+        gr.addQuery("code", this.Currency);
+        gr.query();
+        gr.next();
+        return gr.symbol;
+    },
+
+    /*
+     * Defines the condition trigger for the Business Rules to Update the currency values
+     */
+    conditionTriggerBusinessRule: function () {
+		
+        if (current.u_flight.changes() || 
+			current.u_hotel.changes() || 
+			current.u_other.changes() ||
+			current.u_discount_saving.changes() || 
+			current.u_missed_saving.changes() || 
+			current.u_car_hire.changes() || 
+			current.u_rail_fare.changes() || 
+			current.operation() == "insert") {
+            return true;
+        } else {
+            return false;
+        }
+    },
+
+    /*
+     * Retrieves the total amount of passengers from a specific ID Request
+     */
+    getTotalPassengersPerRequestID: function () {
+        var gr = new GlideRecord(this.TABLE_PASSENGERS);
+        gr.addQuery("u_travel_request", current.u_travel_request);
+        gr.query();
+        return gr.getRowCount();
+    },
+
+    /*
+     * Updates the quantity of passengers for a specific ID Request
+     */
+    updateQuantityPassenger: function () {
+        var gr = new GlideRecord(this.TABLE_TRAVEL_REQUEST);
+        gr.addQuery("sys_id", current.u_travel_request);
+        gr.query();
+	
+        if (gr.next()) {
+            gr.u_quantity_travellers = this.getTotalPassengersPerRequestID();
+            gr.update();
+        }
+    },
+	
+    /*
+     * Returns true if the request is inactive
+     */
+    isTravelRequestInactive: function () {
+        var gr = new GlideRecord(this.TABLE_TRAVEL_REQUEST);
+        gr.addQuery("sys_id", current.u_travel_request);
+        gr.addQuery("active", false);
+        gr.query();
+        return (gr.next()) ? true : false;
+    },
+
+    /*
+     * Returns true if the quantity os passengers has not reached the maximum yet
+     */
+    canAddTravellers: function () {
+        var gr = new GlideRecord(this.TABLE_TRAVEL_REQUEST);
+        gr.addQuery("sys_id", current.u_travel_request);
+        gr.query();
+        if (gr.next()) {
+            return (gr.u_quantity_travellers >= this.QuantityPassengersAllowed) ? false : true;
+        }
+    },
+
+    /*
+     * Returns true if the passenger has already been inserted for a specific request
+     */
+    isSameTraveller: function () {
+        var gr = new GlideRecord(this.TABLE_PASSENGERS);
+        gr.addQuery("u_travel_request", current.u_travel_request);
+        gr.addQuery("u_traveller", current.u_traveller);
+        gr.query();
+        return (gr.next()) ? true : false;
+    },
+
+    addPassenger: function (type, passenger, travel_details, first_date_travel){ 
+        var gr = new GlideRecord(this.TABLE_PASSENGERS);
+        gr.newRecord();
+        gr.u_travel_request = current.sys_id;
+		gr.u_passenger_type = type;
+        gr.u_traveller = passenger;
+		gr.u_contact_email = passenger.email;
+		gr.u_travel_details = travel_details;
+		gr.u_first_date_of_travel = first_date_travel;
+        gr.insert();
+    },
+
+    type: "TravelManagementUtils"
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-18 10:48:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3335fdce37d94600dd95db9643990e0a</sys_id>
+        <sys_mod_count>80</sys_mod_count>
+        <sys_name>TravelManagementUtils</sys_name>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>sys_script_include_3335fdce37d94600dd95db9643990e0a</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-09-14 10:12:27</sys_updated_on>
+    </sys_script_include>
+</record_update>

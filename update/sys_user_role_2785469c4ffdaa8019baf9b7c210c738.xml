@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>just for accessing reports</description>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_spog_travel.report</name>
+        <suffix>report</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-09-07 14:03:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2785469c4ffdaa8019baf9b7c210c738</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_spog_travel.report</sys_name>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>sys_user_role_2785469c4ffdaa8019baf9b7c210c738</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-09-07 14:03:38</sys_updated_on>
+    </sys_user_role>
+</record_update>

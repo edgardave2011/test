@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This client script limits the currency fields to only show Pounds which is the default one.</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>FGE - Travel Removing Currencies OnLoad</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+	//Call the private function for each currency field
+	
+	hideCurrency("x_spog_travel_application.u_flight.currency");
+	hideCurrency("x_spog_travel_application.u_hotel.currency");
+	hideCurrency("x_spog_travel_application.u_other.currency");
+	hideCurrency("x_spog_travel_application.u_discount_saving.currency");
+	hideCurrency("x_spog_travel_application.u_missed_saving.currency");
+	hideCurrency("x_spog_travel_application.u_additional_cost.currency");
+	hideCurrency("x_spog_travel_application.u_car_hire.currency");
+	hideCurrency("x_spog_travel_application.u_rail_fare.currency");
+}
+
+function hideCurrency(element) {
+	
+	//Execute the Ajax Script Include
+	
+	var ga = new GlideAjax("global.CurrencyUtilsAJAX");
+    ga.addParam("sysparm_name", "getActiveCurrencieCodes");
+	ga.getXML(parse);
+	
+	function parse(response) {
+		
+        var currency = response.responseXML.documentElement.getAttribute("answer").split(","),
+			i = 0,
+			max = currency.length;
+		
+		for (; i < max; i += 1) {
+			g_form.removeOption(element, currency[i]);
+		}
+    }
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-08-17 15:28:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>38a91df7373d4a00dd95db9643990edd</sys_id>
+        <sys_mod_count>65</sys_mod_count>
+        <sys_name>FGE - Travel Removing Currencies OnLoad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>sys_script_client_38a91df7373d4a00dd95db9643990edd</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-08-21 12:01:50</sys_updated_on>
+        <table>x_spog_travel_application</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

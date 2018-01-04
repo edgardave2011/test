@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>This property (number) indicates the maximum quantity of travellers that a travel agent can add to a travel request.</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_spog_travel.quantity.travellers.allowed</name>
+        <read_roles/>
+        <suffix>quantity.travellers.allowed</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-16 11:45:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9713fb19379d460050579c9953990e63</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_spog_travel.quantity.travellers.allowed</sys_name>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>sys_properties_9713fb19379d460050579c9953990e63</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-07-22 10:52:15</sys_updated_on>
+        <type>integer</type>
+        <value>5</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=9713fb19379d460050579c9953990e63"/>
+</record_update>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_spog_travel_application" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_spog_travel_application" element="NULL" name="x_spog_travel_application" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2efb0c3c376ac20050579c9953990e79</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-14 08:53:59</sys_created_on>
+            <sys_id>eefb0c3c376ac20050579c9953990e79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-14 08:53:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_caller</element>
+            <list_id display_value="x_spog_travel_application" element="NULL" name="x_spog_travel_application" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2efb0c3c376ac20050579c9953990e79</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-14 08:53:59</sys_created_on>
+            <sys_id>22fb0c3c376ac20050579c9953990e7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-14 08:53:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>priority</element>
+            <list_id display_value="x_spog_travel_application" element="NULL" name="x_spog_travel_application" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2efb0c3c376ac20050579c9953990e79</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-14 08:53:59</sys_created_on>
+            <sys_id>62fb0c3c376ac20050579c9953990e7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-14 08:53:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_quantity_travellers</element>
+            <list_id display_value="x_spog_travel_application" element="NULL" name="x_spog_travel_application" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2efb0c3c376ac20050579c9953990e79</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-14 08:53:59</sys_created_on>
+            <sys_id>a2fb0c3c376ac20050579c9953990e7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-14 08:53:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_first_date_of_travel</element>
+            <list_id display_value="x_spog_travel_application" element="NULL" name="x_spog_travel_application" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2efb0c3c376ac20050579c9953990e79</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-14 08:53:59</sys_created_on>
+            <sys_id>e2fb0c3c376ac20050579c9953990e7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-14 08:53:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>travel_state</element>
+            <list_id display_value="x_spog_travel_application" element="NULL" name="x_spog_travel_application" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2efb0c3c376ac20050579c9953990e79</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-14 08:53:59</sys_created_on>
+            <sys_id>26fb0c3c376ac20050579c9953990e7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-14 08:53:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_spog_travel_application" element="NULL" name="x_spog_travel_application" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2efb0c3c376ac20050579c9953990e79</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-14 08:53:59</sys_created_on>
+            <sys_id>66fb0c3c376ac20050579c9953990e7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-14 08:53:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_spog_travel_application</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-14 08:53:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2efb0c3c376ac20050579c9953990e79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_spog_travel_application</sys_name>
+            <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+            <sys_update_name>sys_ui_list_x_spog_travel_application_null</sys_update_name>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-14 08:53:59</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

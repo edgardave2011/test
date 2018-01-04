@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="short_description" table="x_spog_travel_application" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Issue with a web page</label>
+            <language>en</language>
+            <name>x_spog_travel_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-15 11:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c3bae8537554600dd95db9643990e7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-15 11:49:35</sys_updated_on>
+            <value>Issue with a web page</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Issue with email</label>
+            <language>en</language>
+            <name>x_spog_travel_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-15 11:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>443bae8537554600dd95db9643990e7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-15 11:49:35</sys_updated_on>
+            <value>Issue with email</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Issue with networking</label>
+            <language>en</language>
+            <name>x_spog_travel_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-15 11:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c3bae8537554600dd95db9643990e7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-15 11:49:35</sys_updated_on>
+            <value>Issue with networking</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New employee hire</label>
+            <language>en</language>
+            <name>x_spog_travel_application</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-15 11:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c03bae8537554600dd95db9643990e7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-15 11:49:35</sys_updated_on>
+            <value>New employee hire</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for a Blackberry</label>
+            <language>en</language>
+            <name>x_spog_travel_application</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-15 11:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>883bae8537554600dd95db9643990e7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-15 11:49:35</sys_updated_on>
+            <value>Request for a Blackberry</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for a new service</label>
+            <language>en</language>
+            <name>x_spog_travel_application</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-15 11:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>403bae8537554600dd95db9643990e80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-15 11:49:35</sys_updated_on>
+            <value>Request for a new service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for help</label>
+            <language>en</language>
+            <name>x_spog_travel_application</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-15 11:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>083bae8537554600dd95db9643990e80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-15 11:49:35</sys_updated_on>
+            <value>Request for help</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for new or upgraded hardware</label>
+            <language>en</language>
+            <name>x_spog_travel_application</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-15 11:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc3bae8537554600dd95db9643990e80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-15 11:49:35</sys_updated_on>
+            <value>Request for new or upgraded hardware</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for new or upgraded software</label>
+            <language>en</language>
+            <name>x_spog_travel_application</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-15 11:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>843bae8537554600dd95db9643990e81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-15 11:49:35</sys_updated_on>
+            <value>Request for new or upgraded software</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reset my password</label>
+            <language>en</language>
+            <name>x_spog_travel_application</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-15 11:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c3bae8537554600dd95db9643990e81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-15 11:49:35</sys_updated_on>
+            <value>Reset my password</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <name>x_spog_travel_application</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-15 11:49:35</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>c03bae8537554600dd95db9643990e7e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>short_description</sys_name>
+            <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+            <sys_update_name>sys_choice_x_spog_travel_application_short_description</sys_update_name>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-15 11:49:35</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

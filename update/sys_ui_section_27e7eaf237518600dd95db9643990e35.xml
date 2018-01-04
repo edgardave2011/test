@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="27e7eaf237518600dd95db9643990e35" sys_domain="global" table="x_spog_travel_application" version="3" view="travel_portal">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-04-08 12:25:29</sys_created_on>
+            <sys_id>877db21bdb2a5ec030d17dfcbf961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_travel_application" sys_domain="global" view="ebe7eaf237518600dd95db9643990e34">27e7eaf237518600dd95db9643990e35</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-04-08 12:25:29</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-04-08 12:25:29</sys_created_on>
+            <sys_id>c77db21bdb2a5ec030d17dfcbf961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_travel_application" sys_domain="global" view="ebe7eaf237518600dd95db9643990e34">27e7eaf237518600dd95db9643990e35</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-04-08 12:25:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_caller</element>
+            <position>2</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-04-08 12:25:29</sys_created_on>
+            <sys_id>0b7db21bdb2a5ec030d17dfcbf961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_travel_application" sys_domain="global" view="ebe7eaf237518600dd95db9643990e34">27e7eaf237518600dd95db9643990e35</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-04-08 12:25:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_first_date_of_travel</element>
+            <position>3</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-04-08 12:25:29</sys_created_on>
+            <sys_id>4b7db21bdb2a5ec030d17dfcbf961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_travel_application" sys_domain="global" view="ebe7eaf237518600dd95db9643990e34">27e7eaf237518600dd95db9643990e35</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-04-08 12:25:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-04-08 12:25:29</sys_created_on>
+            <sys_id>8b7db21bdb2a5ec030d17dfcbf961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_travel_application" sys_domain="global" view="ebe7eaf237518600dd95db9643990e34">27e7eaf237518600dd95db9643990e35</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-04-08 12:25:29</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>5</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-04-08 12:25:29</sys_created_on>
+            <sys_id>cb7db21bdb2a5ec030d17dfcbf961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_travel_application" sys_domain="global" view="ebe7eaf237518600dd95db9643990e34">27e7eaf237518600dd95db9643990e35</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-04-08 12:25:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_at</element>
+            <position>6</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-04-08 12:25:29</sys_created_on>
+            <sys_id>0f7db21bdb2a5ec030d17dfcbf961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_travel_application" sys_domain="global" view="ebe7eaf237518600dd95db9643990e34">27e7eaf237518600dd95db9643990e35</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-04-08 12:25:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-04-08 12:25:29</sys_created_on>
+            <sys_id>4f7db21bdb2a5ec030d17dfcbf961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_travel_application" sys_domain="global" view="ebe7eaf237518600dd95db9643990e34">27e7eaf237518600dd95db9643990e35</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-04-08 12:25:29</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>8</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-04-08 12:25:29</sys_created_on>
+            <sys_id>8f7db21bdb2a5ec030d17dfcbf961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_travel_application" sys_domain="global" view="ebe7eaf237518600dd95db9643990e34">27e7eaf237518600dd95db9643990e35</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-04-08 12:25:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>9</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-04-08 12:25:29</sys_created_on>
+            <sys_id>cf7db21bdb2a5ec030d17dfcbf961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_travel_application" sys_domain="global" view="ebe7eaf237518600dd95db9643990e34">27e7eaf237518600dd95db9643990e35</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-04-08 12:25:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>10</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-04-08 12:25:29</sys_created_on>
+            <sys_id>037db21bdb2a5ec030d17dfcbf961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Travel Activities (filtered)">16160e01379542006c522b2943990eb2</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_travel_application" sys_domain="global" view="ebe7eaf237518600dd95db9643990e34">27e7eaf237518600dd95db9643990e35</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-04-08 12:25:29</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.x_spog_travel_application.x_spog_travel_traveller.u_travel_request</element>
+            <position>11</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-04-08 12:25:29</sys_created_on>
+            <sys_id>437db21bdb2a5ec030d17dfcbf961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_travel_application" sys_domain="global" view="ebe7eaf237518600dd95db9643990e34">27e7eaf237518600dd95db9643990e35</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-04-08 12:25:29</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_spog_travel_application</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-20 22:04:42</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27e7eaf237518600dd95db9643990e35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_spog_travel_application</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+            <sys_update_name>sys_ui_section_27e7eaf237518600dd95db9643990e35</sys_update_name>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-20 22:04:42</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Travel Portal" name="travel_portal">ebe7eaf237518600dd95db9643990e34</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

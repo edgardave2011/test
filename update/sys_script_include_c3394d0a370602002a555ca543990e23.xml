@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_spog_travel.CloneTravelProcess</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>CloneTravelProcess</name>
+        <script><![CDATA[var CloneTravelProcess = Class.create();
+
+CloneTravelProcess.prototype = {
+
+    initialize: function () {
+
+        this.newTravel = current;
+        this.travelID = current.sys_id.toString();
+
+        this.TRAVEL_TABLE = "x_spog_travel_application";
+        this.PASSENGER_TABLE = "x_spog_travel_traveller";
+    },
+
+    startClone: function () {
+
+        //var lastEntry = "";
+
+        this.newTravel.number = global.getNextObjNumberPadded();
+        this.newTravel.travel_state = "open";
+        this.newTravel.state = "1";
+        this.newTravel.parent = this.travelID;
+        this.newTravel.u_has_child = "false";
+        this.newTravel.u_resolved_by = "";
+        this.newTravel.u_resolved_at = "";
+		this.newTravel.work_notes = "Travel Request created via copy of " + this.newTravel.parent.number;
+		
+        //lastEntry = this._getLastJournalEntry(this.travelID, "work_notes");
+        //this.newTravel.work_notes = lastEntry + "\nTravel Request created via copy of " + this.newTravel.parent.number;
+
+        current.insert();
+
+        this._addAttachements();
+        this._copyPassengers();
+
+        return this.newTravel;
+    },
+
+    _copyPassengers: function () {
+
+        var currentPassengers = new GlideRecord(this.PASSENGER_TABLE);
+
+        currentPassengers.addQuery("u_travel_request", this.travelID);
+        currentPassengers.query();
+
+        while (currentPassengers.next()) {
+
+            var travelID = currentPassengers.u_travel_request.toString();
+            var newPassenger = currentPassengers;
+
+            newPassenger.u_travel_request = current.sys_id;
+            newPassenger.insert();
+        }
+    },
+
+    _addAttachements: function () {
+        if (typeof GlideSysAttachment != "undefined") {
+            GlideSysAttachment.copy(this.TRAVEL_TABLE, this.travelID, this.TRAVEL_TABLE, this.newTravel.sys_id);
+        } else {
+            Packages.com.glide.ui.SysAttachment.copy(this.TRAVEL_TABLE, this.travelID, this.TRAVEL_TABLE, this.newTravel.sys_id);
+        }
+    },
+
+    _getLastJournalEntry: function (parentSysId, fieldName) {
+
+        var journalRecord = new GlideRecord("sys_journal_field"),
+			result = "";
+		
+        journalRecord.addQuery("element_id", parentSysId);
+        journalRecord.addQuery("element", fieldName);
+        journalRecord.orderByDesc("sys_created_on");
+        journalRecord.query();
+
+        while (journalRecord.next()) {
+            result += journalRecord.value + "\n\n";
+        }
+        return result;
+    },
+
+
+    type: "CloneTravelProcess"
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-08-24 14:03:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c3394d0a370602002a555ca543990e23</sys_id>
+        <sys_mod_count>68</sys_mod_count>
+        <sys_name>CloneTravelProcess</sys_name>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>sys_script_include_c3394d0a370602002a555ca543990e23</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-08-24 20:35:06</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Travel Request">9b6baa86371d4600dd95db9643990ec3</catalog_item>
+        <catalog_variable>IO:2cd4c0723719860050579c9953990eca</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-20 13:49:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>048638fa3719860050579c9953990e7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>passenger_2</sys_name>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_048638fa3719860050579c9953990e7e</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-07-20 13:49:16</sys_updated_on>
+        <table/>
+        <ui_policy display_value="FGE - Add  2 Passengers">a29bccb23719860050579c9953990e6b</ui_policy>
+        <variable>passenger_2</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

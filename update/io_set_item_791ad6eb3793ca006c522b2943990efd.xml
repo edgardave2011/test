@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>1200</order>
+        <sc_cat_item display_value="Travel Request">9b6baa86371d4600dd95db9643990ec3</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin.mohammed</sys_created_by>
+        <sys_created_on>2015-10-30 15:05:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>791ad6eb3793ca006c522b2943990efd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Record Producer Info Message.Travel Request</sys_name>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>io_set_item_791ad6eb3793ca006c522b2943990efd</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2016-09-19 20:38:44</sys_updated_on>
+        <variable_set display_value="Record Producer Info Message">1e68c6e73793ca006c522b2943990ea2</variable_set>
+    </io_set_item>
+</record_update>

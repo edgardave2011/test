@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>&lt;?xml version="1.0" encoding="utf-8"?&gt;&#13;
+&lt;OTA_HotelSearchRQ xmlns="http://www.opentravel.org/OTA/2003/05" EchoToken="ABC123"&#13;
+TimeStamp="2012-01-01T19:00:00" PrimaryLangID="en-us"&#13;
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&#13;
+xsi:schemaLocation="http://www.opentravel.org/OTA/2003/05 ../Schemas/OTA_HotelSearchRQ.xsd"&#13;
+Version="6.000"&gt;&#13;
+  &lt;POS&gt;&#13;
+    &lt;Source ISOCountry="GB" ISOCurrency="GBP"&gt;&#13;
+      &lt;RequestorID Type="4" ID="26129" ID_Context="MyHotel" /&gt;&#13;
+    &lt;/Source&gt;&#13;
+  &lt;/POS&gt;&#13;
+  &lt;Criteria&gt;&#13;
+    &lt;Criterion&gt;&#13;
+      &lt;${u_city} /&gt; &#13;
+      &lt;Address&gt;&#13;
+        &lt;CityName&gt;&lt;/CityName&gt;&#13;
+        &lt;CountryName Code="GB" /&gt;&#13;
+      &lt;/Address&gt;&#13;
+      &lt;HotelRef HotelName="" /&gt;&#13;
+      &lt;Radius Distance="0" DistanceMeasure="M" UnitOfMeasureCode="0" /&gt;&#13;
+     &lt;StayDateRange Start="${u_travel_from}" End="${u_travel_to}" /&gt;&#13;
+    &lt;/Criterion&gt;&#13;
+  &lt;/Criteria&gt;&#13;
+&lt;/OTA_HotelSearchRQ&gt;</content>
+        <function_name>post</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>capitatravelandevents [ post ]</qualified_name>
+        <rest_endpoint>https://test.capitatravelandevents.co.uk/3/hotel.api/api/ota</rest_endpoint>
+        <rest_message display_value="capitatravelandevents">b888fb83db824f402ab570d9bf96190c</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2017-10-31 14:07:33</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>65a83783db824f402ab570d9bf9619cb</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>post</sys_name>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>sys_rest_message_fn_65a83783db824f402ab570d9bf9619cb</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2017-11-10 12:18:30</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

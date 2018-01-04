@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="metric_definition">
+    <metric_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>When a ticket goes into state closed, calculate the duration from open</description>
+        <field>travel_state</field>
+        <name>Travel-Create to Closed Duration</name>
+        <number>MTRC0010036</number>
+        <order>100</order>
+        <script><![CDATA[// variables available
+// current: GlideRecord -  target incident
+// definition: GlideRecord -  (this row)
+var s = current.travel_state;
+if (s >= 4)
+  createMetric();
+
+function createMetric() {
+  var mi = new MetricInstance(definition, current);
+  if (mi.metricExists()) 
+    return; 
+
+  var gr = mi.getNewRecord();
+  gr.start = current.sys_created_on;
+  gr.end = current.sys_updated_on;
+  gr.duration = gs.dateDiff(gr.start.getDisplayValue(), gr.end.getDisplayValue());
+  gr.calculation_complete = true;
+  gr.insert();
+}]]></script>
+        <sys_class_name>metric_definition</sys_class_name>
+        <sys_created_by>admin.mohammed</sys_created_by>
+        <sys_created_on>2016-01-20 13:57:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>baecd4023749de004ed29c9953990e0f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Travel-Create to Closed Duration</sys_name>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>metric_definition_baecd4023749de004ed29c9953990e0f</sys_update_name>
+        <sys_updated_by>admin.mohammed</sys_updated_by>
+        <sys_updated_on>2016-01-20 14:07:58</sys_updated_on>
+        <table>x_spog_travel_application</table>
+        <timeline>false</timeline>
+        <type>calculation</type>
+    </metric_definition>
+</record_update>

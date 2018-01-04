@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Cost Information" section_id="7c00a02537dd460050579c9953990eef" sys_domain="global" table="x_spog_travel_application" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_flight</element>
+            <position>0</position>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-01 15:06:52</sys_created_on>
+            <sys_id>86a4a22837da0200ef5b70f543990e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Cost Information" display_value="Cost Information" name="x_spog_travel_application" sys_domain="global" view="Default view">7c00a02537dd460050579c9953990eef</sys_ui_section>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-01 15:06:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hotel</element>
+            <position>1</position>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-01 15:06:52</sys_created_on>
+            <sys_id>c6a4a22837da0200ef5b70f543990e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Cost Information" display_value="Cost Information" name="x_spog_travel_application" sys_domain="global" view="Default view">7c00a02537dd460050579c9953990eef</sys_ui_section>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-01 15:06:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_other</element>
+            <position>2</position>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-01 15:06:52</sys_created_on>
+            <sys_id>0aa4a22837da0200ef5b70f543990e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Cost Information" display_value="Cost Information" name="x_spog_travel_application" sys_domain="global" view="Default view">7c00a02537dd460050579c9953990eef</sys_ui_section>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-01 15:06:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_discount_saving</element>
+            <position>3</position>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-01 15:06:52</sys_created_on>
+            <sys_id>4aa4a22837da0200ef5b70f543990e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Cost Information" display_value="Cost Information" name="x_spog_travel_application" sys_domain="global" view="Default view">7c00a02537dd460050579c9953990eef</sys_ui_section>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-01 15:06:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_missed_saving</element>
+            <position>4</position>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-01 15:06:52</sys_created_on>
+            <sys_id>8aa4a22837da0200ef5b70f543990e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Cost Information" display_value="Cost Information" name="x_spog_travel_application" sys_domain="global" view="Default view">7c00a02537dd460050579c9953990eef</sys_ui_section>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-01 15:06:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-01 15:06:52</sys_created_on>
+            <sys_id>caa4a22837da0200ef5b70f543990e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Cost Information" display_value="Cost Information" name="x_spog_travel_application" sys_domain="global" view="Default view">7c00a02537dd460050579c9953990eef</sys_ui_section>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-01 15:06:52</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_car_hire</element>
+            <position>6</position>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-01 15:06:52</sys_created_on>
+            <sys_id>0ea4a22837da0200ef5b70f543990e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Cost Information" display_value="Cost Information" name="x_spog_travel_application" sys_domain="global" view="Default view">7c00a02537dd460050579c9953990eef</sys_ui_section>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-01 15:06:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_rail_fare</element>
+            <position>7</position>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-01 15:06:52</sys_created_on>
+            <sys_id>4ea4a22837da0200ef5b70f543990e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Cost Information" display_value="Cost Information" name="x_spog_travel_application" sys_domain="global" view="Default view">7c00a02537dd460050579c9953990eef</sys_ui_section>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-01 15:06:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_other_details</element>
+            <position>8</position>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-01 15:06:52</sys_created_on>
+            <sys_id>8ea4a22837da0200ef5b70f543990e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Cost Information" display_value="Cost Information" name="x_spog_travel_application" sys_domain="global" view="Default view">7c00a02537dd460050579c9953990eef</sys_ui_section>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-01 15:06:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reason_discount</element>
+            <position>9</position>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-01 15:06:52</sys_created_on>
+            <sys_id>cea4a22837da0200ef5b70f543990e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Cost Information" display_value="Cost Information" name="x_spog_travel_application" sys_domain="global" view="Default view">7c00a02537dd460050579c9953990eef</sys_ui_section>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-01 15:06:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reason_missed_saving</element>
+            <position>10</position>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-01 15:06:52</sys_created_on>
+            <sys_id>02a4a22837da0200ef5b70f543990e96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Cost Information" display_value="Cost Information" name="x_spog_travel_application" sys_domain="global" view="Default view">7c00a02537dd460050579c9953990eef</sys_ui_section>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-01 15:06:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-01 15:06:52</sys_created_on>
+            <sys_id>42a4a22837da0200ef5b70f543990e96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Cost Information" display_value="Cost Information" name="x_spog_travel_application" sys_domain="global" view="Default view">7c00a02537dd460050579c9953990eef</sys_ui_section>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-01 15:06:52</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_total_cost</element>
+            <position>12</position>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-01 15:06:52</sys_created_on>
+            <sys_id>82a4a22837da0200ef5b70f543990e96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Cost Information" display_value="Cost Information" name="x_spog_travel_application" sys_domain="global" view="Default view">7c00a02537dd460050579c9953990eef</sys_ui_section>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-01 15:06:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Cost Information</caption>
+            <header>false</header>
+            <name>x_spog_travel_application</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-16 14:58:28</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7c00a02537dd460050579c9953990eef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Cost Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+            <sys_update_name>sys_ui_section_7c00a02537dd460050579c9953990eef</sys_update_name>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-16 14:58:28</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

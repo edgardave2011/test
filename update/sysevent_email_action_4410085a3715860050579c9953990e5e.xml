@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>false</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Travel Application" name="Travel Application">3d22c9e4db4303002ab570d9bf961973</category>
+        <collection>x_spog_travel_application</collection>
+        <condition table="x_spog_travel_application">travel_state=open^EQ<item endquery="false" field="travel_state" goto="false" newquery="false" operator="=" or="false" value="open"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div><span style="font-family: verdana, geneva;">Dear ${opened_by},</span></div>
+<div>&nbsp;</div>
+<div><span style="font-family: verdana, geneva;">Thank you for contacting the Travel Management Team. One of the team will be assigned your case and be in contact shortly.</span></div>
+<div><span style="font-family: verdana, geneva;">&nbsp;</span></div>
+<div><span style="font-family: verdana, geneva;">The details of your request are shown in the table below:</span></div>
+<div><span style="font-family: verdana, geneva;">&nbsp;</span></div>
+<table style="border: 1px solid black; text-align: left; width: 100%;" cellspacing="0" cellpadding="5">
+<tbody>
+<tr>
+<td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">Request ID</span></td>
+<td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${URI_REF}</span></td>
+</tr>
+<tr>
+<td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">Short Description</span></td>
+<td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${short_description}</span></td>
+</tr>
+<tr>
+<td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">Detailed Description</span></td>
+<td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${description}</span></td>
+</tr>
+</tbody>
+</table>
+<div><span style="font-family: verdana, geneva;">&nbsp;</span></div>
+<div><span style="font-family: verdana, geneva;">Kind Regards,</span></div>
+<div><span style="font-family: verdana, geneva;">&nbsp;</span></div>
+<div><span style="font-family: verdana, geneva;">Specsavers Travel Management Team</span></div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>FGE - Travel New Request &amp; Unassigned</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>watch_list,opened_by</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${number} - Travel Application (New Request)</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-18 20:47:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4410085a3715860050579c9953990e5e</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>FGE - Travel New Request &amp; Unassigned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>sysevent_email_action_4410085a3715860050579c9953990e5e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-12-11 23:28:12</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

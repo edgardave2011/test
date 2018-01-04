@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Travel Application">bb69f1cd375542006c522b2943990e39</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Travellers</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_spog_travel_traveller</name>
+        <order>910</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/sys_ui_message_list.do?sysparm_query=sys_scope%3Dbb69794d375542006c522b2943990edc</query>
+        <report/>
+        <roles>user_admin</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-16 11:49:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d6d43359379d460050579c9953990e2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Messages</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>sys_app_module_d6d43359379d460050579c9953990e2d</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-07-16 11:49:53</sys_updated_on>
+        <timeline_page/>
+        <title>Custom Messages</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

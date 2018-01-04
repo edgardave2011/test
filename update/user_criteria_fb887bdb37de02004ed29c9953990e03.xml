@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <company/>
+        <department/>
+        <group/>
+        <location>fba04ebb37d1c60050579c9953990e1b,708f696937b5420050579c9953990e67,e2a1fae73769020050579c9953990eda,f2881e9b372a02004ed29c9953990e04,73a04ebb37d1c60050579c9953990e1c,fa881e9b372a02004ed29c9953990e04,bfa04ebb37d1c60050579c9953990e1b,5703fee73769020050579c9953990e07,fe881e9b372a02004ed29c9953990e05,f2881e9b372a02004ed29c9953990e06,68b04ebb37d1c60050579c9953990e1d,f6881e9b372a02004ed29c9953990e06,fa881e9b372a02004ed29c9953990e06,5703fee73769020050579c9953990e01,67cf296937b5420050579c9953990e0f,fe881e9b372a02004ed29c9953990e01,f2881e9b372a02004ed29c9953990e02,fa881e9b372a02004ed29c9953990e02,fe881e9b372a02004ed29c9953990e02,f2881e9b372a02004ed29c9953990e03,f6881e9b372a02004ed29c9953990e03,fa881e9b372a02004ed29c9953990e03,fe881e9b372a02004ed29c9953990e03,f6881e9b372a02004ed29c9953990e04,fe881e9b372a02004ed29c9953990e04,f2881e9b372a02004ed29c9953990e07,5703fee73769020050579c9953990e00,f6881e9b372a02004ed29c9953990e07,c1cf61a937b5420050579c9953990e99,fa881e9b372a02004ed29c9953990e07,8f9f21a937b5420050579c9953990e67,fe881e9b372a02004ed29c9953990e08,7a881e9b372a02004ed29c9953990e0a,d26f61a937b5420050579c9953990e28,76881e9b372a02004ed29c9953990e0b,7a881e9b372a02004ed29c9953990e0b,0baf21a937b5420050579c9953990e68,fa881e9b372a02004ed29c9953990e0c,1e8fe96937b5420050579c9953990e8a,cf881e9b372a02004ed29c9953990e0d,ccef296937b5420050579c9953990e0f,a5fdfdd7372a02004ed29c9953990eb6,d6ef61a937b5420050579c9953990e9a,f6881e9b372a02004ed29c9953990e05,5edf61a937b5420050579c9953990e99,5703fee73769020050579c9953990e02,f6881e9b372a02004ed29c9953990e09</location>
+        <match_all>false</match_all>
+        <name>Corporate Travel Users</name>
+        <role/>
+        <script><![CDATA[/*var gr = new GlideRecord("sys_user");
+gr.addEncodedQuery("u_user_type=corporate");
+gr.query();
+answer = (gr.next()) ? true : false;
+answer;*/]]></script>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>admin.alex</sys_created_by>
+        <sys_created_on>2015-09-10 10:17:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fb887bdb37de02004ed29c9953990e03</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Corporate Travel Users</sys_name>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>user_criteria_fb887bdb37de02004ed29c9953990e03</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-10-11 08:55:18</sys_updated_on>
+        <u_how_to_handle_these_locations>1</u_how_to_handle_these_locations>
+        <u_menu_items_to_hide>fb6845a137d202004ed29c9953990e40</u_menu_items_to_hide>
+        <u_menu_sections_to_hide/>
+        <user/>
+    </user_criteria>
+</record_update>

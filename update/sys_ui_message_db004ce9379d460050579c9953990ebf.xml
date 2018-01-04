@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <key>travel.maxium.traveller.reached</key>
+        <language>en</language>
+        <message>This request has reached the maximum amount of passengers which is currently {0}.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-16 12:38:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>db004ce9379d460050579c9953990ebf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>travel.maxium.traveller.reached</sys_name>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>sys_ui_message_db004ce9379d460050579c9953990ebf</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-07-17 20:26:43</sys_updated_on>
+    </sys_ui_message>
+</record_update>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="Passenger Type">ed74256c379a0200ef5b70f543990e72</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin.alex</sys_created_by>
+        <sys_created_on>2015-09-01 10:30:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a075e56c379a0200ef5b70f543990e30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Internal</sys_name>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>question_choice_a075e56c379a0200ef5b70f543990e30</sys_update_name>
+        <sys_updated_by>admin.alex</sys_updated_by>
+        <sys_updated_on>2015-09-01 10:30:59</sys_updated_on>
+        <text>Internal</text>
+        <value>internal</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=a075e56c379a0200ef5b70f543990e30"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>misc</field>
+        <id>a075e56c379a0200ef5b70f543990e30</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="GBP">GBP</reference_currency>
+        <sys_created_by>admin.alex</sys_created_by>
+        <sys_created_on>2015-09-01 10:30:59</sys_created_on>
+        <sys_id>b485a56c379a0200ef5b70f543990e43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.alex</sys_updated_by>
+        <sys_updated_on>2015-09-01 10:30:59</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>rec_misc</field>
+        <id>a075e56c379a0200ef5b70f543990e30</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="GBP">GBP</reference_currency>
+        <sys_created_by>admin.alex</sys_created_by>
+        <sys_created_on>2015-09-01 10:30:59</sys_created_on>
+        <sys_id>7485a56c379a0200ef5b70f543990e43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.alex</sys_updated_by>
+        <sys_updated_on>2015-09-01 10:30:59</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

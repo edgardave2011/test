@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="metric_definition">
+    <metric_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Special case that closes out (ends) other metrics when an the active flag in the ticket turns false for Travel</description>
+        <field>active</field>
+        <name>Travel-Open</name>
+        <number>MTRC0010032</number>
+        <order>10</order>
+        <script><![CDATA[// script can set answer to false to terminate processing of the metric
+// mi - MonitorInstance
+// answer
+if (!current.active) {
+  answer = false;
+  mi.endDuration();
+  closeDurations(mi.current);
+}
+
+function closeDurations(current) {
+    var gr = new GlideRecord('metric_instance');
+    gr.addQuery('id', current.sys_id);
+    gr.addQuery('calculation_complete', false);
+    gr.addQuery('definition.type', 'field_value_duration');
+    gr.query();
+    while (gr.next()) {
+       var definition = new GlideRecord('metric_definition');
+       definition.get(gr.definition);
+       var mi = new MetricInstance(definition, current);
+       mi.endDuration();
+    }
+}]]></script>
+        <sys_class_name>metric_definition</sys_class_name>
+        <sys_created_by>admin.mohammed</sys_created_by>
+        <sys_created_on>2016-01-20 13:49:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>deea10423749de004ed29c9953990e2d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Travel-Open</sys_name>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>metric_definition_deea10423749de004ed29c9953990e2d</sys_update_name>
+        <sys_updated_by>admin.mohammed</sys_updated_by>
+        <sys_updated_on>2016-01-20 14:10:02</sys_updated_on>
+        <table>x_spog_travel_application</table>
+        <timeline>false</timeline>
+        <type>field_value_duration</type>
+    </metric_definition>
+</record_update>

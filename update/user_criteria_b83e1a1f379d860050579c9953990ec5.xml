@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <advanced>true</advanced>
+        <company/>
+        <department/>
+        <group/>
+        <location/>
+        <match_all>false</match_all>
+        <name>Store Users</name>
+        <role/>
+        <script><![CDATA[var gr = new GlideRecord("sys_user");
+gr.addQuery("sys_id", gs.getUserID());
+gr.addQuery("u_user_type", "store");
+gr.query();
+answer = (gr.next()) ? true : false;
+answer;]]></script>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-22 10:39:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b83e1a1f379d860050579c9953990ec5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Store Users</sys_name>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>user_criteria_b83e1a1f379d860050579c9953990ec5</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-09-10 10:16:03</sys_updated_on>
+        <u_how_to_handle_these_locations/>
+        <u_menu_items_to_hide/>
+        <u_menu_sections_to_hide/>
+        <user/>
+    </user_criteria>
+</record_update>

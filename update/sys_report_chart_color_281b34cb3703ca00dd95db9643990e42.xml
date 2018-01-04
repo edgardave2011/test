@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_chart_color">
+    <sys_report_chart_color action="INSERT_OR_UPDATE">
+        <color>#278ECF</color>
+        <color_name display_value="UI14 Chart 01">9bfe8711d7003100fa6c0c12ce61038c</color_name>
+        <display>background-color:#278ECF</display>
+        <element>travel_state</element>
+        <name>x_spog_travel_application</name>
+        <sys_class_name>sys_report_chart_color</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2015-10-16 08:37:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>281b34cb3703ca00dd95db9643990e42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_spog_travel_application</sys_name>
+        <sys_package display_value="Travel Application" source="x_spog_travel">bb69794d375542006c522b2943990edc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Travel Application">bb69794d375542006c522b2943990edc</sys_scope>
+        <sys_update_name>sys_report_chart_color_281b34cb3703ca00dd95db9643990e42</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2015-10-16 08:37:27</sys_updated_on>
+        <value>open</value>
+    </sys_report_chart_color>
+</record_update>
